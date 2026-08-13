@@ -2,7 +2,7 @@
 This script is a command-line tool made to assist help desk technicians. It provides a quick centralized location for many management tasks such as: network diagnostics, Active Directory computer management, system information retrieval, and endpoint security operations through the use of an API (this info is redacted for privacy reasons)
 
 # Functionality
-Everything is menu-driven. Menus includei:
+Everything is menu-driven. Menus include:
 - [Network options](#network-menu)
 - [Systems options](#systems-menu)
 - [Security options](#security-menu)
