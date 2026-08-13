@@ -7,7 +7,7 @@ Everything is menu driven. Menus include
 - [Systems options](#systems-menu)
 - [Security options](#security-menu)
 
-Additionally at the main menu you are able to check currently logged-in users, and offer remote assistance using Microsoft Remte Assistance (MSRA)
+Additionally at the main menu you are able to check currently logged-in users, and offer remote assistance using Microsoft Remote Assistance (MSRA)
 
 ### Network Menu
 network menu functionality includes
