@@ -32,3 +32,14 @@ The Security Menu requires an API key, if you have a key then you have the optio
 1. check a computer's connection to XDR
 1. isolate an computer
 1. un-isolate a computer
+
+# How to Use
+To use this script you need to have an open PowerShell session running as Administrator. In your PowerShell session run the script followed by either an AD description or a computer name for example 
+```powershell
+.\path\to\script\computerSearch.ps1 "John Smith"
+```
+or 
+```powershell
+.\path\to\script\computerSearch.ps1 endpoint-name
+```
+Be aware that this script does use the PowerShell Active Directory Module so if you don't have that installed already be aware you will need it. I would also recommend setting up an alias to the script to save yourself time and energy.
