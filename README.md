@@ -1,13 +1,13 @@
 # Computer-Search
-This script is a command-line tool made to assist help desk technicians. It provides a quick centralized location for many management tasks such as network diagnostics, Active Directory computer management, system information retrieval and endpoint security operations through the use of an API (this info is redacted for privacy reasons)
+This script is a command-line tool made to assist help desk technicians. It provides a quick centralized location for many management tasks such as: network diagnostics, Active Directory computer management, system information retrieval, and endpoint security operations through the use of an API (this info is redacted for privacy reasons)
 
 # Functionality
-Everything is menu-driven. Menus include
+Everything is menu-driven. Menus includei:
 - [Network options](#network-menu)
 - [Systems options](#systems-menu)
 - [Security options](#security-menu)
 
-Additionally at the main menu you are able to check currently logged-in users, and offer remote assistance using Microsoft Remote Assistance (MSRA)
+Additionally, at the main menu you are able to check currently logged-in users, and offer remote assistance using Microsoft Remote Assistance (MSRA)
 
 ### Network Menu
 Network menu functionality includes:
@@ -17,17 +17,17 @@ Network menu functionality includes:
 1. copy a computer's MAC address to your clipboard
 
 ### Systems Menu
-Systems menu functionality includes
+Systems menu functionality includes:
 1. save a computer name to your clipboard
 1. get a computer's Active Directory groups
 1. get a computer's uptime
 1. get a computer's disk usage
 1. get a computer's operating system (based on Active Directory field)
-1. get a computer's bitlocker recovery key
+1. get a computer's BitLocker recovery key
 1. remotely reboot a computer
 
 ### Security Menu
-The Security Menu requires an API key. If you have a key, then you have the options to:
+The security menu requires an API key. If you have a key, then you have the options to:
 1. log off the current user (this was specific to my use case and the automation I had in our XDR system)
 1. check a computer's connection to XDR
 1. isolate a computer
@@ -42,4 +42,4 @@ or
 ```powershell
 .\path\to\script\computerSearch.ps1 endpoint-name
 ```
-Be aware that this script uses the PowerShell Active Directory Module, so you'll need to install it if it isn't already present. I would also recommend setting up an alias to the script to save yourself time and energy.
+Be aware that this script uses the PowerShell Active Directory module, so you'll need to install it if it isn't already present. I would also recommend setting up an alias to the script to save yourself time and energy.
