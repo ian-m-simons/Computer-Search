@@ -1,1 +1,34 @@
 # Computer-Search
+This script is a command line tool made to assist help desk technicians
+
+# functionality
+Everything is menu driven menus include
+1. [Network options](#network-menu)
+2. [Systems options](#systems-menu)
+3. [Security options](#security-menu)
+
+Additionally at the main menu you are able to check currently logged in users, and offer remote assistance using Microsoft Remte Assistance (MSRA)
+
+### Network Menu
+network menu functionality includes
+1. ping the computer in question
+1. ping the computer in question continuously
+1. copy the computer's IP address to your clipboard
+1. copy the computer's MAC address to your clipboard
+
+### Systems Menu
+Systems menu functionality includes
+1. save computer name to clipboard
+1. get a computer's active directory groups
+1. get a computer's uptime
+1. get a computer's disk usage
+1. get a computer's operating system (based on Active Directory field)
+1. get a computer's bitlocker recover key
+1. remotely reboot a computer
+
+### Security Menu
+The Security Menu requires an API key, if you have a key then you have the options to
+1. log off the current user (this was specific to my use case and the automation I had sitting in our XDR system)
+1. check a computer's connection to XDR
+1. isolate an computer
+1. un-isolate a computer
